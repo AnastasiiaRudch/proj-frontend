@@ -1,0 +1,57 @@
+p {
+  font-family: Lato;
+}
+table {
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+}
+.btn-edit {
+  text-align: right;
+}
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.table-header {
+  width: 90%;
+  margin: auto;
+  text-align: right;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-add-row {
+  background: #1b9e1b;
+  color: #ffffff;
+}
+
+.button-remove-rows {
+  background: red;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.button-remove {
+  color: red;
+}
+
+::ng-deep .mat-form-field-infix {
+  width: 100% !important;
+}
+
+.form-input {
+  padding-right: 5px;
+}
+.table-title {
+  text-align: center; /* Выравнивание текста по центру */
+  font-size: 24px; /* Размер шрифта */
+  font-weight: bold; /* Жирный шрифт */
+  padding: 10px; /* Отступы вокруг текста */
+  background-color: rgba(0, 0, 0, 0.1); /* Полупрозрачный фон */
+  margin: 20px auto 20px auto; /* Отступы сверху и снизу, автоматический слева и справа */
+  width: 88%; /* Ширина элемента */
+}
